@@ -1,0 +1,187 @@
+<html>
+
+<head>
+
+<style type="text/css">
+
+body
+{
+background-color: #f0f0ff;}
+.scroll
+
+{
+font-size:20px;
+ behaviour: scroll;
+
+color: blue;
+
+scrollamount:"2";
+
+direction: right;
+
+border:1px hsl(230, 98%, 35%);
+
+}
+
+
+img{
+border: 2px solid gray;
+text-decoration: none;}
+
+.nav
+{
+overflow:"hidden";
+text-decoration: none;
+background-color: hsl(241, 80%, 38%);
+height:20px;padding:30px;
+
+
+}
+.nav a
+
+{
+color: white;
+text-decoration:none;
+backound-color: hsl(241, 80%, 38%);
+textalign:center;
+padding: 80px ;
+font-size:20px;
+height:60px;
+}
+
+.box{
+
+border: 5px solid gray;
+padding: 10px;
+width:300px;
+height: 100px;
+margin:3px;
+background-clor-green;
+}
+
+
+.box img{
+padding: px;
+border: 2px solid red;
+height:118;
+width:50;
+
+ margin-left:255px;}
+
+ .box h2{
+ text-align: center;
+ }
+
+ #myMenu a{
+ text-decoration: none;
+ 
+font-size:25px;
+background-color: ;
+ 
+border:  2px solid black;
+
+ text-align: center;
+
+ color: hsl(241, 80%, 38%);
+
+ height: 60px;
+ padding:30px;
+ display: block;}
+
+.available
+ {text-align: right;
+ color: green;
+ 
+ }
+ #myMenu h5
+ {text-align: right;
+ color: ;
+ 
+ }
+ #myMenu  h7
+ {text-align: left;
+ color:green;
+ 
+ }
+ #myMenu li
+ {
+ list-style-type: none;
+ text-align: center;
+ }
+
+ input
+ 
+{
+
+ background-color:solid #ccc;
+
+ color:black;
+ border: 3px  solid grey;
+ 
+height:40px;width:100%}
+ </style>
+ 
+</style>
+</head>
+
+
+<body>
+<img src="D:\online food drive\images\home.jpg" alt ="image" height=220 width=100%>
+
+<div class = "nav">
+<a href="home.html" >home</a>
+<a href="images.html"> images</a>
+<a href="about.html"> about</a>
+<a href="contact.html"> contact</a>
+<a href="donation.html"> donation</a>
+</div>
+<div class="scroll"> 
+<marquee scrollamount="4">welcome to my website</marquee>
+</div>
+
+  <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search orphanage name .." title="Type in a category">
+
+<ul id="myMenu">
+  <li><a  href="srkl.html">Srikakulam <h5 class="available">09 orphanages<br></h5></a></li>
+  <br>
+  <li><a href="vsp.html">Visakhapatnam<h5 class="available"> 10 orphanages</h5></a></li>
+  <br>
+  <li><a href="srkl.html">kakinada<h5 class="available"> 10 orphanages</h5></a></li>
+  <br>
+  <li><a href="guntur.html">Rajahmundry<h5 class="available"> 10 orphanages</h5></a></li>
+  <br>
+  <li><a href="viz.html">Bhimavaram<h5 class="available"> 10 orphanages</h5></a></li>
+  <br>
+  <li><a href="guntur.html">vijayawada<h5 class="available"> 10 orphanages</h5></a></li>
+  <br>
+  <li><a href="guntur.html">guntur<h5 class="available"> 10 orphanages</h5></a></li>
+  <br>
+  <li><a href="vsp.html">kurnool<h5 class="available"> 10 orphanages</h5></a></li>
+  <br>
+  <li><a href="viz.html">tirupati<h5 class="available"> 10 orphanages</h5></a></li>
+  <br>
+</ul>
+<img src="#" alt=" image" width=100% height=40px>
+
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+
+  // Loop through all list items, and hide those who don't match the search query
+  
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+</html

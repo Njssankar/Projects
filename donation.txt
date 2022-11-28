@@ -1,0 +1,157 @@
+<html>
+
+<head>
+
+<style type="text/css">
+
+body
+{
+background-color: #f0f0ff;}
+.scroll
+
+{
+font-size:20px;
+ behaviour: scroll;
+
+color: blue;
+
+scrollamount:"2";
+
+direction: right;
+
+border:1px hsl(230, 98%, 35%);
+
+}
+
+
+img{
+border: 2px solid gray;
+text-decoration: none;}
+
+.nav
+{
+overflow:"hidden";
+text-decoration: none;
+background-color: hsl(241, 80%, 38%);
+height:20px;padding:30px;
+
+
+}
+.nav a
+
+{
+color: white;
+text-decoration:none;
+backound-color: hsl(241, 80%, 38%);
+textalign:center;
+padding: 120px ;
+font-size:20px;
+height:60px;
+}
+
+.box{
+
+border: 5px solid gray;
+padding: 10px;
+width:300px;
+height: 100px;
+margin:3px;
+background-clor-green;
+}
+
+
+.box img{
+padding: px;
+border: 2px solid red;
+height:118;
+width:50;
+
+ margin-left:255px;}
+
+ .box h2{
+ text-align: center;
+ }
+
+ #myMenu a{
+ text-decoration: none;
+ 
+font-size:25px;
+background-color: ;
+ 
+border:  2px solid black;
+
+ text-align: center;
+
+ color: hsl(241, 80%, 38%);
+
+ height: 60px;
+ padding:30px;
+ display: block;}
+ #myMenu h5
+ {text-align: right;
+ color: ;
+ 
+ }
+ #myMenu  h7
+ {text-align: left;
+ color:green;
+ 
+ }
+ 
+ .donation h3
+ {text-align: center;
+ color: blue;
+ background-color:white;
+ border-color: 200px ;
+ 
+ }
+ .donation a
+ { text-decoration:none;
+ color: white;
+ background-color:solid green;
+ }
+ .donation h2
+ {text-align:center;
+ color: blue;}
+ .donation  h4
+ {width:200px;
+ padding:2px;
+ align:center;
+ color: white;
+ font-size:20px;
+ padding:10px;
+ text-align:center;
+ 
+ text-decaration:none;
+ background-color:green }
+ h1{
+     text-color:  blue;}
+
+ </style>
+ 
+</style>
+</head>
+
+
+<body>
+
+<img src="D:\online food drive\images\home.jpg" alt ="image" height=220; width=100%;>
+
+<div class = "nav">
+<a href="home.html" >home</a>
+<a href="images.html"> images</a>
+<a href="about.html"> about</a>
+<a href="contact.html"> contact</a>
+<a href="donation.html"> donation</a>
+</div>
+<div class="donation">
+<h1 > DONATION</h1>
+
+<h2>DONATING VIA PAYPAL</h2>
+
+<a href="https://www.paypal.me/mhvharsha"><h4> click to donate</h4>  </a></div>
+<h1 > DONATION VIA NEFT</h1>
+<h1>accont number: 917386266216 <br>ifsccode:IOB000123<br>account name: orphange food donation system</h2>
+
+
+</html>
